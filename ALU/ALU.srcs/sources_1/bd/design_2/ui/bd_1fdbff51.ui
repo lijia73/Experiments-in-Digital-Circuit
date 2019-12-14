@@ -1,0 +1,48 @@
+{
+   guistr: "# # String gsaved with Nlview 6.5.5  2015-06-26 bk=1.3371 VDI=38 GEI=35 GUI=JA:1.6
+#  -string -flagsOSRD
+preplace port Cout -pg 1 -y 110 -defaultsOSRD
+preplace port A_1 -pg 1 -y 20 -defaultsOSRD
+preplace port A -pg 1 -y 0 -defaultsOSRD
+preplace port A_2 -pg 1 -y -80 -defaultsOSRD
+preplace port B -pg 1 -y -40 -defaultsOSRD
+preplace port Cn -pg 1 -y -20 -defaultsOSRD
+preplace port A_3 -pg 1 -y 50 -defaultsOSRD
+preplace port M0 -pg 1 -y 100 -defaultsOSRD
+preplace port Y0 -pg 1 -y -10 -defaultsOSRD
+preplace port M1 -pg 1 -y 120 -defaultsOSRD
+preplace port Y1 -pg 1 -y -60 -defaultsOSRD
+preplace port B_1 -pg 1 -y 160 -defaultsOSRD
+preplace port M2 -pg 1 -y 140 -defaultsOSRD
+preplace port Y2 -pg 1 -y 10 -defaultsOSRD
+preplace port B_2 -pg 1 -y -60 -defaultsOSRD
+preplace port B_3 -pg 1 -y 70 -defaultsOSRD
+preplace port Y3 -pg 1 -y 90 -defaultsOSRD
+preplace inst design_1_4 -pg 1 -lvl 1 -y 80 -defaultsOSRD
+preplace inst design_1_5 -pg 1 -lvl 4 -y 80 -defaultsOSRD
+preplace inst design_1_6 -pg 1 -lvl 3 -y 90 -defaultsOSRD
+preplace inst design_1_7 -pg 1 -lvl 2 -y 80 -defaultsOSRD
+preplace netloc design_1_5_Y2 1 4 1 800
+preplace netloc M2_1 1 0 4 40 -20 180 -20 NJ -20 600
+preplace netloc design_1_6_Y1 1 3 2 630 -20 NJ
+preplace netloc design_1_4_Y1 1 1 4 200 -40 NJ -40 NJ -40 NJ
+preplace netloc design_1_6_Y2 1 3 1 650
+preplace netloc A_4 1 0 1 -20
+preplace netloc design_1_4_Y2 1 1 1 210
+preplace netloc B_3_1 1 0 4 NJ -80 NJ -80 NJ -80 640
+preplace netloc A_2_1 1 0 3 NJ -110 NJ -110 440
+preplace netloc M0_1 1 0 4 30 -30 NJ -30 NJ -10 610
+preplace netloc B_2_1 1 0 3 NJ -90 NJ -90 430
+preplace netloc design_1_7_Y1 1 2 3 410 -60 NJ -60 NJ
+preplace netloc A_1_1 1 0 2 NJ -40 190
+preplace netloc Cn_1 1 0 1 -30
+preplace netloc design_1_7_Y2 1 2 1 440
+preplace netloc A_3_1 1 0 4 NJ -100 NJ -100 NJ -100 650
+preplace netloc B_1_1 1 0 2 NJ -70 210
+preplace netloc M1_1 1 0 4 10 -60 230 -60 NJ -30 620
+preplace netloc design_1_5_Y1 1 4 1 810
+preplace netloc B_4 1 0 1 -10
+levelinfo -pg 1 -90 110 320 530 730 830 -top -120 -bot 460
+",
+}
+0

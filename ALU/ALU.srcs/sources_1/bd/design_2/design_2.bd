@@ -1,0 +1,278 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<bd:repository xmlns:bd="http://www.xilinx.com/bd" bd:synthFlowMode="None" bd:tool_version="2015.4" bd:top="design_2" bd:version="1.00.a">
+
+  <spirit:component xmlns:spirit="http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009">
+    <spirit:vendor>xilinx.com</spirit:vendor>
+    <spirit:library>BlockDiagram</spirit:library>
+    <spirit:name>design_2</spirit:name>
+    <spirit:version>1.00.a</spirit:version>
+    <spirit:parameters>
+      <spirit:parameter>
+        <spirit:name>isTop</spirit:name>
+        <spirit:value spirit:format="bool" spirit:resolve="immediate">true</spirit:value>
+      </spirit:parameter>
+    </spirit:parameters>
+    <spirit:model>
+      <spirit:views>
+        <spirit:view>
+          <spirit:name>BlockDiagram</spirit:name>
+          <spirit:envIdentifier>:vivado.xilinx.com:</spirit:envIdentifier>
+          <spirit:hierarchyRef spirit:library="BlockDiagram" spirit:name="design_2_imp" spirit:vendor="xilinx.com" spirit:version="1.00.a"/>
+        </spirit:view>
+      </spirit:views>
+      <spirit:ports>
+        <spirit:port>
+          <spirit:name>M1</spirit:name>
+          <spirit:wire>
+            <spirit:direction>in</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>M2</spirit:name>
+          <spirit:wire>
+            <spirit:direction>in</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>M0</spirit:name>
+          <spirit:wire>
+            <spirit:direction>in</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>Cn</spirit:name>
+          <spirit:wire>
+            <spirit:direction>in</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>B</spirit:name>
+          <spirit:wire>
+            <spirit:direction>in</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>A</spirit:name>
+          <spirit:wire>
+            <spirit:direction>in</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>A_1</spirit:name>
+          <spirit:wire>
+            <spirit:direction>in</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>B_1</spirit:name>
+          <spirit:wire>
+            <spirit:direction>in</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>A_2</spirit:name>
+          <spirit:wire>
+            <spirit:direction>in</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>B_2</spirit:name>
+          <spirit:wire>
+            <spirit:direction>in</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>Y0</spirit:name>
+          <spirit:wire>
+            <spirit:direction>out</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>Y1</spirit:name>
+          <spirit:wire>
+            <spirit:direction>out</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>Y2</spirit:name>
+          <spirit:wire>
+            <spirit:direction>out</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>Y3</spirit:name>
+          <spirit:wire>
+            <spirit:direction>out</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>Cout</spirit:name>
+          <spirit:wire>
+            <spirit:direction>out</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>A_3</spirit:name>
+          <spirit:wire>
+            <spirit:direction>in</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>B_3</spirit:name>
+          <spirit:wire>
+            <spirit:direction>in</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+      </spirit:ports>
+    </spirit:model>
+  </spirit:component>
+
+  <spirit:design xmlns:spirit="http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009">
+    <spirit:vendor>xilinx.com</spirit:vendor>
+    <spirit:library>BlockDiagram</spirit:library>
+    <spirit:name>design_2_imp</spirit:name>
+    <spirit:version>1.00.a</spirit:version>
+    <spirit:componentInstances>
+      <spirit:componentInstance>
+        <spirit:instanceName>design_1_4</spirit:instanceName>
+        <spirit:componentRef spirit:library="user" spirit:name="design_1" spirit:vendor="sysu" spirit:version="1.0"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">design_2_design_1_4_0</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
+      <spirit:componentInstance>
+        <spirit:instanceName>design_1_5</spirit:instanceName>
+        <spirit:componentRef spirit:library="user" spirit:name="design_1" spirit:vendor="sysu" spirit:version="1.0"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">design_2_design_1_4_1</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
+      <spirit:componentInstance>
+        <spirit:instanceName>design_1_6</spirit:instanceName>
+        <spirit:componentRef spirit:library="user" spirit:name="design_1" spirit:vendor="sysu" spirit:version="1.0"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">design_2_design_1_4_2</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
+      <spirit:componentInstance>
+        <spirit:instanceName>design_1_7</spirit:instanceName>
+        <spirit:componentRef spirit:library="user" spirit:name="design_1" spirit:vendor="sysu" spirit:version="1.0"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">design_2_design_1_4_3</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
+    </spirit:componentInstances>
+    <spirit:adHocConnections>
+      <spirit:adHocConnection>
+        <spirit:name>M1_1</spirit:name>
+        <spirit:externalPortReference spirit:portRef="M1"/>
+        <spirit:internalPortReference spirit:componentRef="design_1_4" spirit:portRef="M1"/>
+        <spirit:internalPortReference spirit:componentRef="design_1_7" spirit:portRef="M1"/>
+        <spirit:internalPortReference spirit:componentRef="design_1_6" spirit:portRef="M1"/>
+        <spirit:internalPortReference spirit:componentRef="design_1_5" spirit:portRef="M1"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>M2_1</spirit:name>
+        <spirit:externalPortReference spirit:portRef="M2"/>
+        <spirit:internalPortReference spirit:componentRef="design_1_4" spirit:portRef="M2"/>
+        <spirit:internalPortReference spirit:componentRef="design_1_7" spirit:portRef="M2"/>
+        <spirit:internalPortReference spirit:componentRef="design_1_6" spirit:portRef="M2"/>
+        <spirit:internalPortReference spirit:componentRef="design_1_5" spirit:portRef="M2"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>M0_1</spirit:name>
+        <spirit:externalPortReference spirit:portRef="M0"/>
+        <spirit:internalPortReference spirit:componentRef="design_1_4" spirit:portRef="M0"/>
+        <spirit:internalPortReference spirit:componentRef="design_1_7" spirit:portRef="M0"/>
+        <spirit:internalPortReference spirit:componentRef="design_1_6" spirit:portRef="M0"/>
+        <spirit:internalPortReference spirit:componentRef="design_1_5" spirit:portRef="M0"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>A_4</spirit:name>
+        <spirit:externalPortReference spirit:portRef="A"/>
+        <spirit:internalPortReference spirit:componentRef="design_1_4" spirit:portRef="A"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>B_4</spirit:name>
+        <spirit:externalPortReference spirit:portRef="B"/>
+        <spirit:internalPortReference spirit:componentRef="design_1_4" spirit:portRef="B"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>Cn_1</spirit:name>
+        <spirit:externalPortReference spirit:portRef="Cn"/>
+        <spirit:internalPortReference spirit:componentRef="design_1_4" spirit:portRef="Cn"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>design_1_5_Y1</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="design_1_5" spirit:portRef="Y1"/>
+        <spirit:externalPortReference spirit:portRef="Y3"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>design_1_5_Y2</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="design_1_5" spirit:portRef="Y2"/>
+        <spirit:externalPortReference spirit:portRef="Cout"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>A_1_1</spirit:name>
+        <spirit:externalPortReference spirit:portRef="A_1"/>
+        <spirit:internalPortReference spirit:componentRef="design_1_7" spirit:portRef="A"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>B_1_1</spirit:name>
+        <spirit:externalPortReference spirit:portRef="B_1"/>
+        <spirit:internalPortReference spirit:componentRef="design_1_7" spirit:portRef="B"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>A_2_1</spirit:name>
+        <spirit:externalPortReference spirit:portRef="A_2"/>
+        <spirit:internalPortReference spirit:componentRef="design_1_6" spirit:portRef="A"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>B_2_1</spirit:name>
+        <spirit:externalPortReference spirit:portRef="B_2"/>
+        <spirit:internalPortReference spirit:componentRef="design_1_6" spirit:portRef="B"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>A_3_1</spirit:name>
+        <spirit:externalPortReference spirit:portRef="A_3"/>
+        <spirit:internalPortReference spirit:componentRef="design_1_5" spirit:portRef="A"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>B_3_1</spirit:name>
+        <spirit:externalPortReference spirit:portRef="B_3"/>
+        <spirit:internalPortReference spirit:componentRef="design_1_5" spirit:portRef="B"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>design_1_4_Y2</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="design_1_4" spirit:portRef="Y2"/>
+        <spirit:internalPortReference spirit:componentRef="design_1_7" spirit:portRef="Cn"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>design_1_7_Y2</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="design_1_7" spirit:portRef="Y2"/>
+        <spirit:internalPortReference spirit:componentRef="design_1_6" spirit:portRef="Cn"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>design_1_6_Y2</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="design_1_6" spirit:portRef="Y2"/>
+        <spirit:internalPortReference spirit:componentRef="design_1_5" spirit:portRef="Cn"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>design_1_6_Y1</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="design_1_6" spirit:portRef="Y1"/>
+        <spirit:externalPortReference spirit:portRef="Y2"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>design_1_7_Y1</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="design_1_7" spirit:portRef="Y1"/>
+        <spirit:externalPortReference spirit:portRef="Y1"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>design_1_4_Y1</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="design_1_4" spirit:portRef="Y1"/>
+        <spirit:externalPortReference spirit:portRef="Y0"/>
+      </spirit:adHocConnection>
+    </spirit:adHocConnections>
+  </spirit:design>
+
+</bd:repository>

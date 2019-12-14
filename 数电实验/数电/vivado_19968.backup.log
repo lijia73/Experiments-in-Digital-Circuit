@@ -1,0 +1,25 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Tue May 14 19:59:06 2019
+# Process ID: 19968
+# Current directory: C:/Users/13646/Desktop/数电
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent26520 C:\Users\13646\AppData\Local\Temp\Rar$DIa25296.14700\timing.xpr
+# Log file: C:/Users/13646/Desktop/数电/vivado.log
+# Journal file: C:/Users/13646/Desktop/数电\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/13646/AppData/Local/Temp/Rar$DIa25296.14700/timing.xpr}
+INFO: [Project 1-313] Project file moved from 'C:/Users/13646/AppData/Local/Temp/Rar$DIa25252.42777' since last save.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/13646/AppData/Local/Temp/Rar$DIa25296.14700/timing.srcs/sources_1/new/Source.v', nor could it be found using path 'C:/Users/13646/AppData/Local/Temp/Rar$DIa25252.42777/timing.srcs/sources_1/new/Source.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/13646/AppData/Local/Temp/Rar$DIa25296.14700/timing.srcs/constrs_1/new/ports.xdc', nor could it be found using path 'C:/Users/13646/AppData/Local/Temp/Rar$DIa25252.42777/timing.srcs/constrs_1/new/ports.xdc'.
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-2] IPUserFilesDir: Could not find the directory 'C:/Users/13646/AppData/Local/Temp/Rar$DIa25296.14700/timing.ip_user_files', nor could it be found using path 'C:/Users/13646/AppData/Local/Temp/Rar$DIa25252.42777/timing.ip_user_files'.
+WARNING: [filemgmt 56-2] IPStaticSourceDir: Could not find the directory 'C:/Users/13646/AppData/Local/Temp/Rar$DIa25296.14700/timing.ip_user_files/ipstatic', nor could it be found using path 'C:/Users/13646/AppData/Local/Temp/Rar$DIa25252.42777/timing.ip_user_files/ipstatic'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Users/13646/Downloads/xilinx/Vivado/2015.4/data/ip'.
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue May 14 20:03:17 2019...

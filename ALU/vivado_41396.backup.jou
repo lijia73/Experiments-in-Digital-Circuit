@@ -1,0 +1,34 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Sun May 19 17:55:08 2019
+# Process ID: 41396
+# Current directory: C:/Users/13646/Desktop/ALU
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent43864 C:\Users\13646\Desktop\ALU\ALU.xpr
+# Log file: C:/Users/13646/Desktop/ALU/vivado.log
+# Journal file: C:/Users/13646/Desktop/ALU\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/13646/Desktop/ALU/ALU.xpr
+open_bd_design {C:/Users/13646/Desktop/ALU/ALU.srcs/sources_1/bd/design_2/design_2.bd}
+open_bd_design {C:/Users/13646/Desktop/ALU/ALU.srcs/sources_1/bd/design_1/design_1.bd}
+set_property location {5.5 1404 474} [get_bd_cells mux_8_to_1_0]
+undo
+current_bd_design [get_bd_designs design_2]
+startgroup
+create_bd_port -dir O Y1
+connect_bd_net [get_bd_pins /design_1_0/Y1] [get_bd_ports Y1]
+endgroup
+startgroup
+create_bd_port -dir O Y1_1
+connect_bd_net [get_bd_pins /design_1_2/Y1] [get_bd_ports Y1_1]
+endgroup
+startgroup
+create_bd_port -dir O Y1_2
+connect_bd_net [get_bd_pins /design_1_1/Y1] [get_bd_ports Y1_2]
+endgroup
+startgroup
+create_bd_port -dir O Y1_3
+connect_bd_net [get_bd_pins /design_1_3/Y1] [get_bd_ports Y1_3]
+endgroup

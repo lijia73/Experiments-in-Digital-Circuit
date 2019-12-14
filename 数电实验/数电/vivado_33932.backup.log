@@ -1,0 +1,31 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Tue May 14 19:55:29 2019
+# Process ID: 33932
+# Current directory: C:/Users/13646/Desktop/数电
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent23096 C:\Users\13646\AppData\Local\Temp\Rar$DIa25252.42943\timing.xpr
+# Log file: C:/Users/13646/Desktop/数电/vivado.log
+# Journal file: C:/Users/13646/Desktop/数电\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/13646/AppData/Local/Temp/Rar$DIa25252.42943/timing.xpr}
+INFO: [Project 1-313] Project file moved from 'E:/Desktop/timing' since last save.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/13646/AppData/Local/Temp/Rar$DIa25252.42943/timing.srcs/sources_1/new/Source.v', nor could it be found using path 'E:/Desktop/timing/timing.srcs/sources_1/new/Source.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/13646/AppData/Local/Temp/Rar$DIa25252.42943/timing.srcs/constrs_1/new/ports.xdc', nor could it be found using path 'E:/Desktop/timing/timing.srcs/constrs_1/new/ports.xdc'.
+Scanning sources...
+Finished scanning sources
+WARNING: [Project 1-509] GeneratedRun file for 'synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'impl_1' not found
+WARNING: [filemgmt 56-2] IPUserFilesDir: Could not find the directory 'C:/Users/13646/AppData/Local/Temp/Rar$DIa25252.42943/timing.ip_user_files', nor could it be found using path 'E:/Desktop/timing/timing.ip_user_files'.
+WARNING: [filemgmt 56-2] IPStaticSourceDir: Could not find the directory 'C:/Users/13646/AppData/Local/Temp/Rar$DIa25252.42943/timing.ip_user_files/ipstatic', nor could it be found using path 'E:/Desktop/timing/timing.ip_user_files/ipstatic'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Users/13646/Downloads/xilinx/Vivado/2015.4/data/ip'.
+open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:07 . Memory (MB): peak = 718.309 ; gain = 168.547
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue May 14 19:56:40 2019...

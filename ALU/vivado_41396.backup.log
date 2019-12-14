@@ -1,0 +1,64 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Sun May 19 17:55:08 2019
+# Process ID: 41396
+# Current directory: C:/Users/13646/Desktop/ALU
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent43864 C:\Users\13646\Desktop\ALU\ALU.xpr
+# Log file: C:/Users/13646/Desktop/ALU/vivado.log
+# Journal file: C:/Users/13646/Desktop/ALU\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/13646/Desktop/ALU/ALU.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/13646/AppData/Roaming/Xilinx/ip_repo'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/13646/Downloads/xilinx/Vivado/2015.4/lib/XUP_LIB'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/13646/Downloads/xilinx/Vivado/2015.4/lib/74IP'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Users/13646/Downloads/xilinx/Vivado/2015.4/data/ip'.
+CRITICAL WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:xup:xup_nand4:1.0'. The one found in IP location 'c:/Users/13646/Downloads/xilinx/Vivado/2015.4/lib/XUP_LIB/xup_nand4_1.0' will take precedence over the same IP in location c:/Users/13646/Downloads/xilinx/Vivado/2015.4/lib/74IP/xup_nand4_1
+open_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:07 . Memory (MB): peak = 786.691 ; gain = 191.352
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun May 19 17:57:40 2019...
+/design_2.bd}
+Adding component instance block -- xilinx.com:user:design_1:1.0 - design_1_0
+Adding component instance block -- xilinx.com:user:design_1:1.0 - design_1_1
+Adding component instance block -- xilinx.com:user:design_1:1.0 - design_1_2
+Adding component instance block -- xilinx.com:user:design_1:1.0 - design_1_3
+Successfully read diagram <design_2> from BD file <C:/Users/13646/Desktop/ALU/ALU.srcs/sources_1/bd/design_2/design_2.bd>
+open_bd_design: Time (s): cpu = 00:00:11 ; elapsed = 00:00:06 . Memory (MB): peak = 812.801 ; gain = 45.410
+open_bd_design {C:/Users/13646/Desktop/ALU/ALU.srcs/sources_1/bd/design_1/design_1.bd}
+Adding component instance block -- xilinx.com:xup:mux_8_to_1:1.0 - mux_8_to_1_0
+Adding component instance block -- xilinx.com:XUP:six_not_gate:1.0 - six_not_gate_0
+Adding component instance block -- xilinx.com:XUP:four_2_input_and_gate:1.0 - four_2_input_and_gate_0
+Adding component instance block -- xilinx.com:XUP:four_2_input_or_gate:1.0 - four_2_input_or_gate_0
+Adding component instance block -- xilinx.com:xup:xup_xnor2:1.0 - xup_xnor2_0
+Adding component instance block -- xilinx.com:xup:xup_xnor2:1.0 - xup_xnor2_1
+Adding component instance block -- xilinx.com:xup:mux_8_to_1:1.0 - mux_8_to_1_1
+Adding component instance block -- xilinx.com:XUP:six_not_gate:1.0 - six_not_gate_1
+Adding component instance block -- xilinx.com:XUP:tri_3_input_and_gate:1.0 - tri_3_input_and_gate_0
+Successfully read diagram <design_1> from BD file <C:/Users/13646/Desktop/ALU/ALU.srcs/sources_1/bd/design_1/design_1.bd>
+set_property location {5.5 1404 474} [get_bd_cells mux_8_to_1_0]
+undo
+INFO: [Common 17-17] undo 'set_property location {5.5 1404 474} [get_bd_cells mux_8_to_1_0]'
+current_bd_design [get_bd_designs design_2]
+startgroup
+create_bd_port -dir O Y1
+connect_bd_net [get_bd_pins /design_1_0/Y1] [get_bd_ports Y1]
+endgroup
+startgroup
+create_bd_port -dir O Y1_1
+connect_bd_net [get_bd_pins /design_1_2/Y1] [get_bd_ports Y1_1]
+endgroup
+startgroup
+create_bd_port -dir O Y1_2
+connect_bd_net [get_bd_pins /design_1_1/Y1] [get_bd_ports Y1_2]
+endgroup
+startgroup
+create_bd_port -dir O Y1_3
+connect_bd_net [get_bd_pins /design_1_3/Y1] [get_bd_ports Y1_3]
+endgroup
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun May 19 18:08:39 2019...

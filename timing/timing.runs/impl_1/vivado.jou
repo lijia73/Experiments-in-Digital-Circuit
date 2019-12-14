@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Mon Jun 17 00:30:15 2019
+# Process ID: 9704
+# Current directory: C:/Users/13646/Desktop/数电实验/数电/timing/timing.runs/impl_1
+# Command line: vivado.exe -log Source.vdi -applog -messageDb vivado.pb -mode batch -source Source.tcl -notrace
+# Log file: C:/Users/13646/Desktop/数电实验/数电/timing/timing.runs/impl_1/Source.vdi
+# Journal file: C:/Users/13646/Desktop/数电实验/数电/timing/timing.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source Source.tcl -notrace

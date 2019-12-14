@@ -1,0 +1,50 @@
+{
+   guistr: "# # String gsaved with Nlview 6.5.5  2015-06-26 bk=1.3371 VDI=38 GEI=35 GUI=JA:1.6
+#  -string -flagsOSRD
+preplace port A -pg 1 -y 430 -defaultsOSRD
+preplace port Cn -pg 1 -y 210 -defaultsOSRD
+preplace port B -pg 1 -y 450 -defaultsOSRD
+preplace port M0 -pg 1 -y 390 -defaultsOSRD
+preplace port M1 -pg 1 -y 350 -defaultsOSRD
+preplace port Y1 -pg 1 -y 440 -defaultsOSRD
+preplace port M2 -pg 1 -y 370 -defaultsOSRD
+preplace port Y2 -pg 1 -y 140 -defaultsOSRD
+preplace inst four_2_input_or_gate_0 -pg 1 -lvl 3 -y 220 -defaultsOSRD
+preplace inst xup_xor2_0 -pg 1 -lvl 2 -y 430 -defaultsOSRD
+preplace inst xup_xor2_1 -pg 1 -lvl 2 -y 650 -defaultsOSRD
+preplace inst four_2_input_and_gate_0 -pg 1 -lvl 2 -y 220 -defaultsOSRD
+preplace inst mux_8_to_1_0 -pg 1 -lvl 5 -y 450 -defaultsOSRD
+preplace inst mux_8_to_1_1 -pg 1 -lvl 5 -y 150 -defaultsOSRD
+preplace inst six_not_gate_0 -pg 1 -lvl 1 -y 550 -defaultsOSRD
+preplace inst tri_3_input_and_gate_0 -pg 1 -lvl 4 -y -20 -defaultsOSRD
+preplace inst six_not_gate_1 -pg 1 -lvl 4 -y 260 -defaultsOSRD
+preplace netloc four_2_input_or_gate_0_Y1 1 1 4 100 80 NJ 80 630 360 920
+preplace netloc A_1 1 0 3 -120 430 80 90 380
+preplace netloc xup_xnor2_0_y 1 1 4 100 370 360 370 640 370 NJ
+preplace netloc four_2_input_or_gate_0_Y2 1 3 2 620 160 NJ
+preplace netloc mux_8_to_1_1_Q 1 5 1 NJ
+preplace netloc four_2_input_or_gate_0_Y3 1 1 3 100 340 NJ 340 590
+preplace netloc tri_3_input_and_gate_0_Y1 1 4 1 950
+preplace netloc six_not_gate_1_Y1 1 4 1 880
+preplace netloc four_2_input_or_gate_0_Y4 1 3 2 610 140 NJ
+preplace netloc mux_8_to_1_0_Q 1 5 1 NJ
+preplace netloc six_not_gate_1_Y2 1 4 1 890
+preplace netloc six_not_gate_1_Y3 1 4 1 900
+preplace netloc six_not_gate_0_Y1 1 1 4 60 490 NJ 490 660 490 NJ
+preplace netloc xup_xnor2_1_y 1 2 3 N 430 NJ 430 900
+preplace netloc six_not_gate_1_Y4 1 4 1 910
+preplace netloc four_2_input_and_gate_0_Y1 1 2 3 370 100 600 380 890
+preplace netloc six_not_gate_0_Y2 1 1 4 NJ 500 NJ 500 650 500 NJ
+preplace netloc six_not_gate_1_Y5 1 4 1 920
+preplace netloc four_2_input_and_gate_0_Y2 1 2 1 N
+preplace netloc A2_1 1 0 5 NJ 60 NJ 60 NJ 60 NJ 130 NJ
+preplace netloc four_2_input_and_gate_0_Y3 1 2 1 350
+preplace netloc four_2_input_and_gate_0_Y4 1 2 1 340
+preplace netloc Cn_1 1 0 3 NJ 210 70 350 370
+preplace netloc B_1 1 0 3 -140 450 90 100 360
+preplace netloc A1_1 1 0 5 NJ 50 NJ 50 NJ 50 NJ 120 NJ
+preplace netloc A0_1 1 0 5 NJ 40 NJ 40 NJ 40 NJ 110 NJ
+levelinfo -pg 1 -160 -10 240 490 780 1040 1130 -top -330 -bot 760
+",
+}
+0

@@ -1,0 +1,1647 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Sun Apr 14 16:57:45 2019" VIVADOVERSION="2015.4">
+
+  <SYSTEMINFO ARCH="artix7" DEVICE="7a35t" NAME="design_1" PACKAGE="cpg236" SPEEDGRADE="-1"/>
+
+  <EXTERNALPORTS>
+    <PORT DIR="I" NAME="B3" SIGIS="undef" SIGNAME="External_Ports_B3">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="six_not_gate_0" PORT="A4"/>
+        <CONNECTION INSTANCE="four_2_input_and_gate_0" PORT="A2"/>
+        <CONNECTION INSTANCE="tri_3_input_and_gate_1" PORT="A2"/>
+        <CONNECTION INSTANCE="six_not_gate_1" PORT="A4"/>
+        <CONNECTION INSTANCE="xup_and3_0" PORT="c"/>
+        <CONNECTION INSTANCE="six_not_gate_2" PORT="A4"/>
+        <CONNECTION INSTANCE="xup_xor2_1" PORT="a"/>
+        <CONNECTION INSTANCE="six_not_gate_3" PORT="A4"/>
+        <CONNECTION INSTANCE="xup_and2_1" PORT="b"/>
+        <CONNECTION INSTANCE="tri_3_input_and_gate_0" PORT="B3"/>
+        <CONNECTION INSTANCE="six_not_gate_4" PORT="A4"/>
+        <CONNECTION INSTANCE="four_2_input_and_gate_3" PORT="A3"/>
+        <CONNECTION INSTANCE="four_2_input_and_gate_3" PORT="A4"/>
+        <CONNECTION INSTANCE="six_not_gate_5" PORT="A4"/>
+        <CONNECTION INSTANCE="four_2_input_and_gate_4" PORT="A3"/>
+        <CONNECTION INSTANCE="four_2_input_and_gate_4" PORT="A4"/>
+        <CONNECTION INSTANCE="six_not_gate_6" PORT="A4"/>
+        <CONNECTION INSTANCE="four_2_input_and_gate_6" PORT="A3"/>
+        <CONNECTION INSTANCE="four_2_input_and_gate_6" PORT="A4"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="B2" SIGIS="undef" SIGNAME="External_Ports_B2">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="six_not_gate_0" PORT="A3"/>
+        <CONNECTION INSTANCE="four_2_input_and_gate_0" PORT="B4"/>
+        <CONNECTION INSTANCE="tri_3_input_and_gate_1" PORT="A1"/>
+        <CONNECTION INSTANCE="six_not_gate_1" PORT="A3"/>
+        <CONNECTION INSTANCE="six_not_gate_2" PORT="A3"/>
+        <CONNECTION INSTANCE="xup_xor2_1" PORT="b"/>
+        <CONNECTION INSTANCE="six_not_gate_3" PORT="A3"/>
+        <CONNECTION INSTANCE="xup_and2_0" PORT="b"/>
+        <CONNECTION INSTANCE="six_not_gate_4" PORT="A3"/>
+        <CONNECTION INSTANCE="four_2_input_and_gate_3" PORT="B3"/>
+        <CONNECTION INSTANCE="six_not_gate_5" PORT="A3"/>
+        <CONNECTION INSTANCE="xup_and3_1" PORT="c"/>
+        <CONNECTION INSTANCE="four_2_input_and_gate_4" PORT="B2"/>
+        <CONNECTION INSTANCE="six_not_gate_6" PORT="A3"/>
+        <CONNECTION INSTANCE="xup_and3_2" PORT="c"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="B1" SIGIS="undef" SIGNAME="External_Ports_B1">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="six_not_gate_0" PORT="A2"/>
+        <CONNECTION INSTANCE="four_2_input_and_gate_0" PORT="B3"/>
+        <CONNECTION INSTANCE="four_2_input_and_gate_0" PORT="A4"/>
+        <CONNECTION INSTANCE="six_not_gate_1" PORT="A2"/>
+        <CONNECTION INSTANCE="six_not_gate_2" PORT="A2"/>
+        <CONNECTION INSTANCE="six_not_gate_3" PORT="A2"/>
+        <CONNECTION INSTANCE="xup_xor2_2" PORT="a"/>
+        <CONNECTION INSTANCE="tri_3_input_and_gate_0" PORT="C2"/>
+        <CONNECTION INSTANCE="six_not_gate_4" PORT="A2"/>
+        <CONNECTION INSTANCE="four_2_input_and_gate_3" PORT="B2"/>
+        <CONNECTION INSTANCE="four_2_input_and_gate_3" PORT="B4"/>
+        <CONNECTION INSTANCE="six_not_gate_5" PORT="A2"/>
+        <CONNECTION INSTANCE="four_2_input_and_gate_4" PORT="B4"/>
+        <CONNECTION INSTANCE="six_not_gate_6" PORT="A2"/>
+        <CONNECTION INSTANCE="four_2_input_and_gate_6" PORT="B1"/>
+        <CONNECTION INSTANCE="four_2_input_and_gate_6" PORT="B2"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="B0" SIGIS="undef" SIGNAME="External_Ports_B0">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="six_not_gate_0" PORT="A1"/>
+        <CONNECTION INSTANCE="tri_3_input_and_gate_1" PORT="B1"/>
+        <CONNECTION INSTANCE="six_not_gate_1" PORT="A1"/>
+        <CONNECTION INSTANCE="xup_xor2_0" PORT="a"/>
+        <CONNECTION INSTANCE="xup_and3_0" PORT="b"/>
+        <CONNECTION INSTANCE="six_not_gate_2" PORT="A1"/>
+        <CONNECTION INSTANCE="four_2_input_and_gate_2" PORT="B2"/>
+        <CONNECTION INSTANCE="four_2_input_and_gate_2" PORT="A3"/>
+        <CONNECTION INSTANCE="six_not_gate_3" PORT="A1"/>
+        <CONNECTION INSTANCE="xup_xor2_2" PORT="b"/>
+        <CONNECTION INSTANCE="tri_3_input_and_gate_0" PORT="C3"/>
+        <CONNECTION INSTANCE="six_not_gate_4" PORT="A1"/>
+        <CONNECTION INSTANCE="six_not_gate_5" PORT="A1"/>
+        <CONNECTION INSTANCE="six_not_gate_6" PORT="A1"/>
+        <CONNECTION INSTANCE="four_2_input_and_gate_6" PORT="B3"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="b" SIGIS="undef" SIGNAME="six_not_gate_8_Y2">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="six_not_gate_8" PORT="Y2"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="a" SIGIS="undef" SIGNAME="six_not_gate_8_Y1">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="six_not_gate_8" PORT="Y1"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="c" SIGIS="undef" SIGNAME="six_not_gate_8_Y3">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="six_not_gate_8" PORT="Y3"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="d" SIGIS="undef" SIGNAME="six_not_gate_7_Y2">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="six_not_gate_7" PORT="Y2"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="e" SIGIS="undef" SIGNAME="six_not_gate_7_Y1">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="six_not_gate_7" PORT="Y1"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="f" SIGIS="undef" SIGNAME="six_not_gate_7_Y3">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="six_not_gate_7" PORT="Y3"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="g" SIGIS="undef" SIGNAME="six_not_gate_7_Y4">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="six_not_gate_7" PORT="Y4"/>
+      </CONNECTIONS>
+    </PORT>
+  </EXTERNALPORTS>
+
+  <EXTERNALINTERFACES/>
+
+  <MODULES>
+    <MODULE FULLNAME="/four_2_input_and_gate_0" HWVERSION="1.0" INSTANCE="four_2_input_and_gate_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="four_2_input_and_gate" VLNV="xilinx.com:XUP:four_2_input_and_gate:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Delay" VALUE="0"/>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_four_2_input_and_gate_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="A1" SIGIS="undef" SIGNAME="six_not_gate_0_Y1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="six_not_gate_0" PORT="Y1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="B1" SIGIS="undef" SIGNAME="six_not_gate_0_Y3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="six_not_gate_0" PORT="Y3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="A2" SIGIS="undef" SIGNAME="External_Ports_B3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="B3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="B2" SIGIS="undef" SIGNAME="six_not_gate_0_Y1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="six_not_gate_0" PORT="Y1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="A3" SIGIS="undef" SIGNAME="six_not_gate_0_Y4">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="six_not_gate_0" PORT="Y4"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="B3" SIGIS="undef" SIGNAME="External_Ports_B1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="B1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="A4" SIGIS="undef" SIGNAME="External_Ports_B1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="B1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="B4" SIGIS="undef" SIGNAME="External_Ports_B2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="B2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Y1" SIGIS="undef" SIGNAME="four_2_input_and_gate_0_Y1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_or6_0" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Y2" SIGIS="undef" SIGNAME="four_2_input_and_gate_0_Y2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_or6_0" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Y3" SIGIS="undef" SIGNAME="four_2_input_and_gate_0_Y3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_or6_0" PORT="c"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Y4" SIGIS="undef" SIGNAME="four_2_input_and_gate_0_Y4">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_or6_0" PORT="d"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/four_2_input_and_gate_1" HWVERSION="1.0" INSTANCE="four_2_input_and_gate_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="four_2_input_and_gate" VLNV="xilinx.com:XUP:four_2_input_and_gate:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Delay" VALUE="0"/>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_four_2_input_and_gate_0_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="A1" SIGIS="undef" SIGNAME="six_not_gate_1_Y3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="six_not_gate_1" PORT="Y3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="B1" SIGIS="undef" SIGNAME="six_not_gate_1_Y1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="six_not_gate_1" PORT="Y1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="A2" SIGIS="undef" SIGNAME="six_not_gate_1_Y4">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="six_not_gate_1" PORT="Y4"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="B2" SIGIS="undef" SIGNAME="six_not_gate_1_Y3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="six_not_gate_1" PORT="Y3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="A3" SIGIS="undef" SIGNAME="six_not_gate_1_Y4">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="six_not_gate_1" PORT="Y4"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="B3" SIGIS="undef" SIGNAME="xup_xor2_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_xor2_0" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="A4" SIGIS="undef"/>
+        <PORT DIR="I" NAME="B4" SIGIS="undef"/>
+        <PORT DIR="O" NAME="Y1" SIGIS="undef" SIGNAME="four_2_input_and_gate_1_Y1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_or4_0" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Y2" SIGIS="undef" SIGNAME="four_2_input_and_gate_1_Y2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_or4_0" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Y3" SIGIS="undef" SIGNAME="four_2_input_and_gate_1_Y3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_or4_0" PORT="c"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Y4" SIGIS="undef"/>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/four_2_input_and_gate_2" HWVERSION="1.0" INSTANCE="four_2_input_and_gate_2" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="four_2_input_and_gate" VLNV="xilinx.com:XUP:four_2_input_and_gate:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Delay" VALUE="0"/>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_four_2_input_and_gate_1_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="A1" SIGIS="undef" SIGNAME="six_not_gate_2_Y2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="six_not_gate_2" PORT="Y2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="B1" SIGIS="undef" SIGNAME="six_not_gate_2_Y3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="six_not_gate_2" PORT="Y3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="A2" SIGIS="undef" SIGNAME="six_not_gate_2_Y2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="six_not_gate_2" PORT="Y2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="B2" SIGIS="undef" SIGNAME="External_Ports_B0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="B0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="A3" SIGIS="undef" SIGNAME="External_Ports_B0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="B0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="B3" SIGIS="undef" SIGNAME="six_not_gate_2_Y4">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="six_not_gate_2" PORT="Y4"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="A4" SIGIS="undef"/>
+        <PORT DIR="I" NAME="B4" SIGIS="undef"/>
+        <PORT DIR="O" NAME="Y1" SIGIS="undef" SIGNAME="four_2_input_and_gate_2_Y1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_or4_1" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Y2" SIGIS="undef" SIGNAME="four_2_input_and_gate_2_Y2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_or4_1" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Y3" SIGIS="undef" SIGNAME="four_2_input_and_gate_2_Y3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_or4_1" PORT="c"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Y4" SIGIS="undef"/>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/four_2_input_and_gate_3" HWVERSION="1.0" INSTANCE="four_2_input_and_gate_3" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="four_2_input_and_gate" VLNV="xilinx.com:XUP:four_2_input_and_gate:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Delay" VALUE="0"/>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_four_2_input_and_gate_2_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="A1" SIGIS="undef" SIGNAME="six_not_gate_4_Y3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="six_not_gate_4" PORT="Y3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="B1" SIGIS="undef" SIGNAME="six_not_gate_4_Y1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="six_not_gate_4" PORT="Y1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="A2" SIGIS="undef" SIGNAME="six_not_gate_4_Y1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="six_not_gate_4" PORT="Y1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="B2" SIGIS="undef" SIGNAME="External_Ports_B1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="B1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="A3" SIGIS="undef" SIGNAME="External_Ports_B3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="B3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="B3" SIGIS="undef" SIGNAME="External_Ports_B2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="B2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="A4" SIGIS="undef" SIGNAME="External_Ports_B3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="B3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="B4" SIGIS="undef" SIGNAME="External_Ports_B1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="B1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Y1" SIGIS="undef" SIGNAME="four_2_input_and_gate_3_Y1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_or4_2" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Y2" SIGIS="undef" SIGNAME="four_2_input_and_gate_3_Y2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_or4_2" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Y3" SIGIS="undef" SIGNAME="four_2_input_and_gate_3_Y3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_or4_2" PORT="c"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Y4" SIGIS="undef" SIGNAME="four_2_input_and_gate_3_Y4">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_or4_2" PORT="d"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/four_2_input_and_gate_4" HWVERSION="1.0" INSTANCE="four_2_input_and_gate_4" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="four_2_input_and_gate" VLNV="xilinx.com:XUP:four_2_input_and_gate:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Delay" VALUE="0"/>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_four_2_input_and_gate_3_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="A1" SIGIS="undef" SIGNAME="six_not_gate_5_Y1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="six_not_gate_5" PORT="Y1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="B1" SIGIS="undef" SIGNAME="six_not_gate_5_Y2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="six_not_gate_5" PORT="Y2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="A2" SIGIS="undef" SIGNAME="six_not_gate_5_Y1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="six_not_gate_5" PORT="Y1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="B2" SIGIS="undef" SIGNAME="External_Ports_B2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="B2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="A3" SIGIS="undef" SIGNAME="External_Ports_B3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="B3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="B3" SIGIS="undef" SIGNAME="six_not_gate_5_Y3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="six_not_gate_5" PORT="Y3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="A4" SIGIS="undef" SIGNAME="External_Ports_B3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="B3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="B4" SIGIS="undef" SIGNAME="External_Ports_B1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="B1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Y1" SIGIS="undef" SIGNAME="four_2_input_and_gate_4_Y1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_or5_1" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Y2" SIGIS="undef" SIGNAME="four_2_input_and_gate_4_Y2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_or5_1" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Y3" SIGIS="undef" SIGNAME="four_2_input_and_gate_4_Y3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_or5_1" PORT="c"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Y4" SIGIS="undef" SIGNAME="four_2_input_and_gate_4_Y4">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_or5_1" PORT="d"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/four_2_input_and_gate_6" HWVERSION="1.0" INSTANCE="four_2_input_and_gate_6" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="four_2_input_and_gate" VLNV="xilinx.com:XUP:four_2_input_and_gate:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Delay" VALUE="0"/>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_four_2_input_and_gate_4_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="A1" SIGIS="undef" SIGNAME="six_not_gate_6_Y1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="six_not_gate_6" PORT="Y1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="B1" SIGIS="undef" SIGNAME="External_Ports_B1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="B1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="A2" SIGIS="undef" SIGNAME="six_not_gate_6_Y3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="six_not_gate_6" PORT="Y3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="B2" SIGIS="undef" SIGNAME="External_Ports_B1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="B1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="A3" SIGIS="undef" SIGNAME="External_Ports_B3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="B3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="B3" SIGIS="undef" SIGNAME="External_Ports_B0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="B0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="A4" SIGIS="undef" SIGNAME="External_Ports_B3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="B3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="B4" SIGIS="undef" SIGNAME="six_not_gate_6_Y3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="six_not_gate_6" PORT="Y3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Y1" SIGIS="undef" SIGNAME="four_2_input_and_gate_6_Y1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_or5_2" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Y2" SIGIS="undef" SIGNAME="four_2_input_and_gate_6_Y2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_or5_2" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Y3" SIGIS="undef" SIGNAME="four_2_input_and_gate_6_Y3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_or5_2" PORT="c"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Y4" SIGIS="undef" SIGNAME="four_2_input_and_gate_6_Y4">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_or5_2" PORT="d"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/six_not_gate_0" HWVERSION="1.0" INSTANCE="six_not_gate_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="six_not_gate" VLNV="xilinx.com:XUP:six_not_gate:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Delay" VALUE="0"/>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_six_not_gate_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="A1" SIGIS="undef" SIGNAME="External_Ports_B0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="B0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="A2" SIGIS="undef" SIGNAME="External_Ports_B1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="B1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="A3" SIGIS="undef" SIGNAME="External_Ports_B2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="B2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="A4" SIGIS="undef" SIGNAME="External_Ports_B3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="B3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="A5" SIGIS="undef"/>
+        <PORT DIR="I" NAME="A6" SIGIS="undef"/>
+        <PORT DIR="O" NAME="Y1" SIGIS="undef" SIGNAME="six_not_gate_0_Y1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="four_2_input_and_gate_0" PORT="A1"/>
+            <CONNECTION INSTANCE="four_2_input_and_gate_0" PORT="B2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Y2" SIGIS="undef" SIGNAME="six_not_gate_0_Y2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="tri_3_input_and_gate_1" PORT="C2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Y3" SIGIS="undef" SIGNAME="six_not_gate_0_Y3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="four_2_input_and_gate_0" PORT="B1"/>
+            <CONNECTION INSTANCE="tri_3_input_and_gate_1" PORT="B2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Y4" SIGIS="undef" SIGNAME="six_not_gate_0_Y4">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="four_2_input_and_gate_0" PORT="A3"/>
+            <CONNECTION INSTANCE="tri_3_input_and_gate_1" PORT="C1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Y5" SIGIS="undef"/>
+        <PORT DIR="O" NAME="Y6" SIGIS="undef"/>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/six_not_gate_1" HWVERSION="1.0" INSTANCE="six_not_gate_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="six_not_gate" VLNV="xilinx.com:XUP:six_not_gate:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Delay" VALUE="0"/>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_six_not_gate_0_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="A1" SIGIS="undef" SIGNAME="External_Ports_B0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="B0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="A2" SIGIS="undef" SIGNAME="External_Ports_B1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="B1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="A3" SIGIS="undef" SIGNAME="External_Ports_B2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="B2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="A4" SIGIS="undef" SIGNAME="External_Ports_B3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="B3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="A5" SIGIS="undef"/>
+        <PORT DIR="I" NAME="A6" SIGIS="undef"/>
+        <PORT DIR="O" NAME="Y1" SIGIS="undef" SIGNAME="six_not_gate_1_Y1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="four_2_input_and_gate_1" PORT="B1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Y2" SIGIS="undef" SIGNAME="six_not_gate_1_Y2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_xor2_0" PORT="b"/>
+            <CONNECTION INSTANCE="xup_and3_0" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Y3" SIGIS="undef" SIGNAME="six_not_gate_1_Y3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="four_2_input_and_gate_1" PORT="A1"/>
+            <CONNECTION INSTANCE="four_2_input_and_gate_1" PORT="B2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Y4" SIGIS="undef" SIGNAME="six_not_gate_1_Y4">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="four_2_input_and_gate_1" PORT="A3"/>
+            <CONNECTION INSTANCE="four_2_input_and_gate_1" PORT="A2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Y5" SIGIS="undef"/>
+        <PORT DIR="O" NAME="Y6" SIGIS="undef"/>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/six_not_gate_2" HWVERSION="1.0" INSTANCE="six_not_gate_2" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="six_not_gate" VLNV="xilinx.com:XUP:six_not_gate:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Delay" VALUE="0"/>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_six_not_gate_1_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="A1" SIGIS="undef" SIGNAME="External_Ports_B0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="B0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="A2" SIGIS="undef" SIGNAME="External_Ports_B1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="B1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="A3" SIGIS="undef" SIGNAME="External_Ports_B2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="B2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="A4" SIGIS="undef" SIGNAME="External_Ports_B3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="B3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="A5" SIGIS="undef"/>
+        <PORT DIR="I" NAME="A6" SIGIS="undef"/>
+        <PORT DIR="O" NAME="Y1" SIGIS="undef"/>
+        <PORT DIR="O" NAME="Y2" SIGIS="undef" SIGNAME="six_not_gate_2_Y2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="four_2_input_and_gate_2" PORT="A1"/>
+            <CONNECTION INSTANCE="four_2_input_and_gate_2" PORT="A2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Y3" SIGIS="undef" SIGNAME="six_not_gate_2_Y3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="four_2_input_and_gate_2" PORT="B1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Y4" SIGIS="undef" SIGNAME="six_not_gate_2_Y4">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="four_2_input_and_gate_2" PORT="B3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Y5" SIGIS="undef"/>
+        <PORT DIR="O" NAME="Y6" SIGIS="undef"/>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/six_not_gate_3" HWVERSION="1.0" INSTANCE="six_not_gate_3" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="six_not_gate" VLNV="xilinx.com:XUP:six_not_gate:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Delay" VALUE="0"/>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_six_not_gate_2_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="A1" SIGIS="undef" SIGNAME="External_Ports_B0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="B0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="A2" SIGIS="undef" SIGNAME="External_Ports_B1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="B1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="A3" SIGIS="undef" SIGNAME="External_Ports_B2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="B2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="A4" SIGIS="undef" SIGNAME="External_Ports_B3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="B3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="A5" SIGIS="undef"/>
+        <PORT DIR="I" NAME="A6" SIGIS="undef"/>
+        <PORT DIR="O" NAME="Y1" SIGIS="undef" SIGNAME="six_not_gate_3_Y1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="tri_3_input_and_gate_0" PORT="A1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Y2" SIGIS="undef" SIGNAME="six_not_gate_3_Y2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_and2_1" PORT="a"/>
+            <CONNECTION INSTANCE="tri_3_input_and_gate_0" PORT="B1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Y3" SIGIS="undef" SIGNAME="six_not_gate_3_Y3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="tri_3_input_and_gate_0" PORT="C1"/>
+            <CONNECTION INSTANCE="tri_3_input_and_gate_0" PORT="B2"/>
+            <CONNECTION INSTANCE="tri_3_input_and_gate_0" PORT="A3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Y4" SIGIS="undef" SIGNAME="six_not_gate_3_Y4">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="tri_3_input_and_gate_0" PORT="A2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Y5" SIGIS="undef"/>
+        <PORT DIR="O" NAME="Y6" SIGIS="undef"/>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/six_not_gate_4" HWVERSION="1.0" INSTANCE="six_not_gate_4" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="six_not_gate" VLNV="xilinx.com:XUP:six_not_gate:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Delay" VALUE="0"/>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_six_not_gate_3_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="A1" SIGIS="undef" SIGNAME="External_Ports_B0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="B0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="A2" SIGIS="undef" SIGNAME="External_Ports_B1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="B1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="A3" SIGIS="undef" SIGNAME="External_Ports_B2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="B2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="A4" SIGIS="undef" SIGNAME="External_Ports_B3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="B3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="A5" SIGIS="undef"/>
+        <PORT DIR="I" NAME="A6" SIGIS="undef"/>
+        <PORT DIR="O" NAME="Y1" SIGIS="undef" SIGNAME="six_not_gate_4_Y1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="four_2_input_and_gate_3" PORT="B1"/>
+            <CONNECTION INSTANCE="four_2_input_and_gate_3" PORT="A2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Y2" SIGIS="undef"/>
+        <PORT DIR="O" NAME="Y3" SIGIS="undef" SIGNAME="six_not_gate_4_Y3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="four_2_input_and_gate_3" PORT="A1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Y4" SIGIS="undef"/>
+        <PORT DIR="O" NAME="Y5" SIGIS="undef"/>
+        <PORT DIR="O" NAME="Y6" SIGIS="undef"/>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/six_not_gate_5" HWVERSION="1.0" INSTANCE="six_not_gate_5" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="six_not_gate" VLNV="xilinx.com:XUP:six_not_gate:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Delay" VALUE="0"/>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_six_not_gate_4_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="A1" SIGIS="undef" SIGNAME="External_Ports_B0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="B0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="A2" SIGIS="undef" SIGNAME="External_Ports_B1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="B1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="A3" SIGIS="undef" SIGNAME="External_Ports_B2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="B2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="A4" SIGIS="undef" SIGNAME="External_Ports_B3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="B3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="A5" SIGIS="undef"/>
+        <PORT DIR="I" NAME="A6" SIGIS="undef"/>
+        <PORT DIR="O" NAME="Y1" SIGIS="undef" SIGNAME="six_not_gate_5_Y1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="four_2_input_and_gate_4" PORT="A1"/>
+            <CONNECTION INSTANCE="four_2_input_and_gate_4" PORT="A2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Y2" SIGIS="undef" SIGNAME="six_not_gate_5_Y2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_and3_1" PORT="b"/>
+            <CONNECTION INSTANCE="four_2_input_and_gate_4" PORT="B1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Y3" SIGIS="undef" SIGNAME="six_not_gate_5_Y3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="four_2_input_and_gate_4" PORT="B3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Y4" SIGIS="undef" SIGNAME="six_not_gate_5_Y4">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_and3_1" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Y5" SIGIS="undef"/>
+        <PORT DIR="O" NAME="Y6" SIGIS="undef"/>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/six_not_gate_6" HWVERSION="1.0" INSTANCE="six_not_gate_6" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="six_not_gate" VLNV="xilinx.com:XUP:six_not_gate:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Delay" VALUE="0"/>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_six_not_gate_5_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="A1" SIGIS="undef" SIGNAME="External_Ports_B0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="B0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="A2" SIGIS="undef" SIGNAME="External_Ports_B1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="B1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="A3" SIGIS="undef" SIGNAME="External_Ports_B2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="B2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="A4" SIGIS="undef" SIGNAME="External_Ports_B3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="B3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="A5" SIGIS="undef"/>
+        <PORT DIR="I" NAME="A6" SIGIS="undef"/>
+        <PORT DIR="O" NAME="Y1" SIGIS="undef" SIGNAME="six_not_gate_6_Y1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="four_2_input_and_gate_6" PORT="A1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Y2" SIGIS="undef" SIGNAME="six_not_gate_6_Y2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_and3_2" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Y3" SIGIS="undef" SIGNAME="six_not_gate_6_Y3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="four_2_input_and_gate_6" PORT="A2"/>
+            <CONNECTION INSTANCE="four_2_input_and_gate_6" PORT="B4"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Y4" SIGIS="undef" SIGNAME="six_not_gate_6_Y4">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_and3_2" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Y5" SIGIS="undef"/>
+        <PORT DIR="O" NAME="Y6" SIGIS="undef"/>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/six_not_gate_7" HWVERSION="1.0" INSTANCE="six_not_gate_7" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="six_not_gate" VLNV="xilinx.com:XUP:six_not_gate:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Delay" VALUE="0"/>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_six_not_gate_7_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="A1" SIGIS="undef" SIGNAME="xup_or4_2_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_or4_2" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="A2" SIGIS="undef" SIGNAME="xup_or5_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_or5_0" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="A3" SIGIS="undef" SIGNAME="xup_or5_1_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_or5_1" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="A4" SIGIS="undef" SIGNAME="xup_or5_2_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_or5_2" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="A5" SIGIS="undef"/>
+        <PORT DIR="I" NAME="A6" SIGIS="undef"/>
+        <PORT DIR="O" NAME="Y1" SIGIS="undef" SIGNAME="six_not_gate_7_Y1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="e"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Y2" SIGIS="undef" SIGNAME="six_not_gate_7_Y2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="d"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Y3" SIGIS="undef" SIGNAME="six_not_gate_7_Y3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="f"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Y4" SIGIS="undef" SIGNAME="six_not_gate_7_Y4">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="g"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Y5" SIGIS="undef"/>
+        <PORT DIR="O" NAME="Y6" SIGIS="undef"/>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/six_not_gate_8" HWVERSION="1.0" INSTANCE="six_not_gate_8" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="six_not_gate" VLNV="xilinx.com:XUP:six_not_gate:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Delay" VALUE="0"/>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_six_not_gate_7_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="A1" SIGIS="undef" SIGNAME="xup_or6_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_or6_0" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="A2" SIGIS="undef" SIGNAME="xup_or4_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_or4_0" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="A3" SIGIS="undef" SIGNAME="xup_or4_1_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_or4_1" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="A4" SIGIS="undef"/>
+        <PORT DIR="I" NAME="A5" SIGIS="undef"/>
+        <PORT DIR="I" NAME="A6" SIGIS="undef"/>
+        <PORT DIR="O" NAME="Y1" SIGIS="undef" SIGNAME="six_not_gate_8_Y1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Y2" SIGIS="undef" SIGNAME="six_not_gate_8_Y2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Y3" SIGIS="undef" SIGNAME="six_not_gate_8_Y3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="c"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Y4" SIGIS="undef"/>
+        <PORT DIR="O" NAME="Y5" SIGIS="undef"/>
+        <PORT DIR="O" NAME="Y6" SIGIS="undef"/>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/tri_3_input_and_gate_0" HWVERSION="1.0" INSTANCE="tri_3_input_and_gate_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="tri_3_input_and_gate" VLNV="xilinx.com:XUP:tri_3_input_and_gate:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Delay" VALUE="0"/>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_tri_3_input_and_gate_0_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="A1" SIGIS="undef" SIGNAME="six_not_gate_3_Y1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="six_not_gate_3" PORT="Y1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="B1" SIGIS="undef" SIGNAME="six_not_gate_3_Y2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="six_not_gate_3" PORT="Y2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="C1" SIGIS="undef" SIGNAME="six_not_gate_3_Y3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="six_not_gate_3" PORT="Y3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="A2" SIGIS="undef" SIGNAME="six_not_gate_3_Y4">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="six_not_gate_3" PORT="Y4"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="B2" SIGIS="undef" SIGNAME="six_not_gate_3_Y3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="six_not_gate_3" PORT="Y3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="C2" SIGIS="undef" SIGNAME="External_Ports_B1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="B1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="A3" SIGIS="undef" SIGNAME="six_not_gate_3_Y3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="six_not_gate_3" PORT="Y3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="B3" SIGIS="undef" SIGNAME="External_Ports_B3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="B3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="C3" SIGIS="undef" SIGNAME="External_Ports_B0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="B0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Y1" SIGIS="undef" SIGNAME="tri_3_input_and_gate_0_Y1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_or5_0" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Y2" SIGIS="undef" SIGNAME="tri_3_input_and_gate_0_Y2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_or5_0" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Y3" SIGIS="undef" SIGNAME="tri_3_input_and_gate_0_Y3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_or5_0" PORT="c"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/tri_3_input_and_gate_1" HWVERSION="1.0" INSTANCE="tri_3_input_and_gate_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="tri_3_input_and_gate" VLNV="xilinx.com:XUP:tri_3_input_and_gate:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Delay" VALUE="0"/>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_tri_3_input_and_gate_1_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="A1" SIGIS="undef" SIGNAME="External_Ports_B2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="B2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="B1" SIGIS="undef" SIGNAME="External_Ports_B0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="B0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="C1" SIGIS="undef" SIGNAME="six_not_gate_0_Y4">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="six_not_gate_0" PORT="Y4"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="A2" SIGIS="undef" SIGNAME="External_Ports_B3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="B3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="B2" SIGIS="undef" SIGNAME="six_not_gate_0_Y3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="six_not_gate_0" PORT="Y3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="C2" SIGIS="undef" SIGNAME="six_not_gate_0_Y2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="six_not_gate_0" PORT="Y2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="A3" SIGIS="undef"/>
+        <PORT DIR="I" NAME="B3" SIGIS="undef"/>
+        <PORT DIR="I" NAME="C3" SIGIS="undef"/>
+        <PORT DIR="O" NAME="Y1" SIGIS="undef" SIGNAME="tri_3_input_and_gate_1_Y1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_or6_0" PORT="e"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Y2" SIGIS="undef" SIGNAME="tri_3_input_and_gate_1_Y2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_or6_0" PORT="f"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Y3" SIGIS="undef"/>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/xup_and2_0" HWVERSION="1.0" INSTANCE="xup_and2_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_and2" VLNV="xilinx.com:xup:xup_and2:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="3"/>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_xup_and2_0_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="xup_xor2_2_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_xor2_2" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="External_Ports_B2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="B2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="xup_and2_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_or5_0" PORT="e"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/xup_and2_1" HWVERSION="1.0" INSTANCE="xup_and2_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_and2" VLNV="xilinx.com:xup:xup_and2:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="3"/>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_xup_and2_0_2"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="six_not_gate_3_Y2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="six_not_gate_3" PORT="Y2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="External_Ports_B3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="B3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="xup_and2_1_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_or5_0" PORT="d"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/xup_and3_0" HWVERSION="1.0" INSTANCE="xup_and3_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_and3" VLNV="xilinx.com:xup:xup_and3:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="3"/>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_xup_and3_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="six_not_gate_1_Y2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="six_not_gate_1" PORT="Y2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="External_Ports_B0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="B0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="c" SIGIS="undef" SIGNAME="External_Ports_B3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="B3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="xup_and3_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_or4_0" PORT="d"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/xup_and3_1" HWVERSION="1.0" INSTANCE="xup_and3_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_and3" VLNV="xilinx.com:xup:xup_and3:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="3"/>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_xup_and3_1_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="six_not_gate_5_Y4">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="six_not_gate_5" PORT="Y4"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="six_not_gate_5_Y2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="six_not_gate_5" PORT="Y2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="c" SIGIS="undef" SIGNAME="External_Ports_B2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="B2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="xup_and3_1_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_or5_1" PORT="e"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/xup_and3_2" HWVERSION="1.0" INSTANCE="xup_and3_2" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_and3" VLNV="xilinx.com:xup:xup_and3:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="3"/>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_xup_and3_1_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="six_not_gate_6_Y4">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="six_not_gate_6" PORT="Y4"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="six_not_gate_6_Y2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="six_not_gate_6" PORT="Y2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="c" SIGIS="undef" SIGNAME="External_Ports_B2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="B2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="xup_and3_2_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_or5_2" PORT="e"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/xup_or4_0" HWVERSION="1.0" INSTANCE="xup_or4_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_or4" VLNV="xilinx.com:xup:xup_or4:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="3"/>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_xup_or4_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="four_2_input_and_gate_1_Y1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="four_2_input_and_gate_1" PORT="Y1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="four_2_input_and_gate_1_Y2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="four_2_input_and_gate_1" PORT="Y2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="c" SIGIS="undef" SIGNAME="four_2_input_and_gate_1_Y3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="four_2_input_and_gate_1" PORT="Y3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="d" SIGIS="undef" SIGNAME="xup_and3_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_and3_0" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="xup_or4_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="six_not_gate_8" PORT="A2"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/xup_or4_1" HWVERSION="1.0" INSTANCE="xup_or4_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_or4" VLNV="xilinx.com:xup:xup_or4:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="3"/>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_xup_or4_0_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="four_2_input_and_gate_2_Y1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="four_2_input_and_gate_2" PORT="Y1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="four_2_input_and_gate_2_Y2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="four_2_input_and_gate_2" PORT="Y2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="c" SIGIS="undef" SIGNAME="four_2_input_and_gate_2_Y3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="four_2_input_and_gate_2" PORT="Y3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="d" SIGIS="undef" SIGNAME="xup_xor2_1_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_xor2_1" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="xup_or4_1_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="six_not_gate_8" PORT="A3"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/xup_or4_2" HWVERSION="1.0" INSTANCE="xup_or4_2" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_or4" VLNV="xilinx.com:xup:xup_or4:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="3"/>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_xup_or4_2_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="four_2_input_and_gate_3_Y1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="four_2_input_and_gate_3" PORT="Y1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="four_2_input_and_gate_3_Y2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="four_2_input_and_gate_3" PORT="Y2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="c" SIGIS="undef" SIGNAME="four_2_input_and_gate_3_Y3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="four_2_input_and_gate_3" PORT="Y3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="d" SIGIS="undef" SIGNAME="four_2_input_and_gate_3_Y4">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="four_2_input_and_gate_3" PORT="Y4"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="xup_or4_2_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="six_not_gate_7" PORT="A1"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/xup_or5_0" HWVERSION="1.0" INSTANCE="xup_or5_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_or5" VLNV="xilinx.com:xup:xup_or5:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="3"/>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_xup_or5_0_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="tri_3_input_and_gate_0_Y1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="tri_3_input_and_gate_0" PORT="Y1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="tri_3_input_and_gate_0_Y2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="tri_3_input_and_gate_0" PORT="Y2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="c" SIGIS="undef" SIGNAME="tri_3_input_and_gate_0_Y3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="tri_3_input_and_gate_0" PORT="Y3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="d" SIGIS="undef" SIGNAME="xup_and2_1_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_and2_1" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="e" SIGIS="undef" SIGNAME="xup_and2_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_and2_0" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="xup_or5_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="six_not_gate_7" PORT="A2"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/xup_or5_1" HWVERSION="1.0" INSTANCE="xup_or5_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_or5" VLNV="xilinx.com:xup:xup_or5:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="3"/>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_xup_or5_1_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="four_2_input_and_gate_4_Y1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="four_2_input_and_gate_4" PORT="Y1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="four_2_input_and_gate_4_Y2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="four_2_input_and_gate_4" PORT="Y2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="c" SIGIS="undef" SIGNAME="four_2_input_and_gate_4_Y3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="four_2_input_and_gate_4" PORT="Y3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="d" SIGIS="undef" SIGNAME="four_2_input_and_gate_4_Y4">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="four_2_input_and_gate_4" PORT="Y4"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="e" SIGIS="undef" SIGNAME="xup_and3_1_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_and3_1" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="xup_or5_1_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="six_not_gate_7" PORT="A3"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/xup_or5_2" HWVERSION="1.0" INSTANCE="xup_or5_2" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_or5" VLNV="xilinx.com:xup:xup_or5:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="3"/>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_xup_or5_2_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="four_2_input_and_gate_6_Y1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="four_2_input_and_gate_6" PORT="Y1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="four_2_input_and_gate_6_Y2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="four_2_input_and_gate_6" PORT="Y2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="c" SIGIS="undef" SIGNAME="four_2_input_and_gate_6_Y3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="four_2_input_and_gate_6" PORT="Y3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="d" SIGIS="undef" SIGNAME="four_2_input_and_gate_6_Y4">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="four_2_input_and_gate_6" PORT="Y4"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="e" SIGIS="undef" SIGNAME="xup_and3_2_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_and3_2" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="xup_or5_2_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="six_not_gate_7" PORT="A4"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/xup_or6_0" HWVERSION="1.0" INSTANCE="xup_or6_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_or6" VLNV="xilinx.com:xup:xup_or6:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="3"/>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_xup_or6_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="four_2_input_and_gate_0_Y1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="four_2_input_and_gate_0" PORT="Y1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="four_2_input_and_gate_0_Y2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="four_2_input_and_gate_0" PORT="Y2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="c" SIGIS="undef" SIGNAME="four_2_input_and_gate_0_Y3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="four_2_input_and_gate_0" PORT="Y3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="d" SIGIS="undef" SIGNAME="four_2_input_and_gate_0_Y4">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="four_2_input_and_gate_0" PORT="Y4"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="e" SIGIS="undef" SIGNAME="tri_3_input_and_gate_1_Y1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="tri_3_input_and_gate_1" PORT="Y1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="f" SIGIS="undef" SIGNAME="tri_3_input_and_gate_1_Y2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="tri_3_input_and_gate_1" PORT="Y2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="xup_or6_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="six_not_gate_8" PORT="A1"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/xup_xor2_0" HWVERSION="1.0" INSTANCE="xup_xor2_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_xor2" VLNV="xilinx.com:xup:xup_xor2:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="3"/>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_xup_xor2_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="External_Ports_B0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="B0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="six_not_gate_1_Y2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="six_not_gate_1" PORT="Y2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="xup_xor2_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="four_2_input_and_gate_1" PORT="B3"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/xup_xor2_1" HWVERSION="1.0" INSTANCE="xup_xor2_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_xor2" VLNV="xilinx.com:xup:xup_xor2:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="3"/>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_xup_xor2_0_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="External_Ports_B3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="B3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="External_Ports_B2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="B2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="xup_xor2_1_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_or4_1" PORT="d"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/xup_xor2_2" HWVERSION="1.0" INSTANCE="xup_xor2_2" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_xor2" VLNV="xilinx.com:xup:xup_xor2:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="3"/>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_xup_xor2_1_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="External_Ports_B1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="B1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="External_Ports_B0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="B0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="xup_xor2_2_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_and2_0" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+  </MODULES>
+
+</EDKSYSTEM>

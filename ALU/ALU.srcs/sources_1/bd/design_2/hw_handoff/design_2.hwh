@@ -1,0 +1,308 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Sun May 19 21:24:42 2019" VIVADOVERSION="2015.4">
+
+  <SYSTEMINFO ARCH="artix7" DEVICE="7a35t" NAME="design_2" PACKAGE="cpg236" SPEEDGRADE="-1"/>
+
+  <EXTERNALPORTS>
+    <PORT DIR="I" NAME="M1" SIGIS="undef" SIGNAME="External_Ports_M1">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="design_1_4" PORT="M1"/>
+        <CONNECTION INSTANCE="design_1_7" PORT="M1"/>
+        <CONNECTION INSTANCE="design_1_6" PORT="M1"/>
+        <CONNECTION INSTANCE="design_1_5" PORT="M1"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="M2" SIGIS="undef" SIGNAME="External_Ports_M2">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="design_1_4" PORT="M2"/>
+        <CONNECTION INSTANCE="design_1_7" PORT="M2"/>
+        <CONNECTION INSTANCE="design_1_6" PORT="M2"/>
+        <CONNECTION INSTANCE="design_1_5" PORT="M2"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="M0" SIGIS="undef" SIGNAME="External_Ports_M0">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="design_1_4" PORT="M0"/>
+        <CONNECTION INSTANCE="design_1_7" PORT="M0"/>
+        <CONNECTION INSTANCE="design_1_6" PORT="M0"/>
+        <CONNECTION INSTANCE="design_1_5" PORT="M0"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="Cn" SIGIS="undef" SIGNAME="External_Ports_Cn">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="design_1_4" PORT="Cn"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="B" SIGIS="undef" SIGNAME="External_Ports_B">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="design_1_4" PORT="B"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="A" SIGIS="undef" SIGNAME="External_Ports_A">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="design_1_4" PORT="A"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="A_1" SIGIS="undef" SIGNAME="External_Ports_A_1">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="design_1_7" PORT="A"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="B_1" SIGIS="undef" SIGNAME="External_Ports_B_1">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="design_1_7" PORT="B"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="A_2" SIGIS="undef" SIGNAME="External_Ports_A_2">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="design_1_6" PORT="A"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="B_2" SIGIS="undef" SIGNAME="External_Ports_B_2">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="design_1_6" PORT="B"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="Y0" SIGIS="undef" SIGNAME="design_1_4_Y1">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="design_1_4" PORT="Y1"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="Y1" SIGIS="undef" SIGNAME="design_1_7_Y1">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="design_1_7" PORT="Y1"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="Y2" SIGIS="undef" SIGNAME="design_1_6_Y1">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="design_1_6" PORT="Y1"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="Y3" SIGIS="undef" SIGNAME="design_1_5_Y1">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="design_1_5" PORT="Y1"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="Cout" SIGIS="undef" SIGNAME="design_1_5_Y2">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="design_1_5" PORT="Y2"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="A_3" SIGIS="undef" SIGNAME="External_Ports_A_3">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="design_1_5" PORT="A"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="B_3" SIGIS="undef" SIGNAME="External_Ports_B_3">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="design_1_5" PORT="B"/>
+      </CONNECTIONS>
+    </PORT>
+  </EXTERNALPORTS>
+
+  <EXTERNALINTERFACES/>
+
+  <MODULES>
+    <MODULE FULLNAME="/design_1_4" HWVERSION="1.0" INSTANCE="design_1_4" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="design_1" VLNV="sysu:user:design_1:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_2_design_1_4_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="A" SIGIS="undef" SIGNAME="External_Ports_A">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="A"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="B" SIGIS="undef" SIGNAME="External_Ports_B">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="B"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="Cn" SIGIS="undef" SIGNAME="External_Ports_Cn">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="Cn"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="M0" SIGIS="undef" SIGNAME="External_Ports_M0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="M0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="M1" SIGIS="undef" SIGNAME="External_Ports_M1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="M1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="M2" SIGIS="undef" SIGNAME="External_Ports_M2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="M2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Y1" SIGIS="undef" SIGNAME="design_1_4_Y1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="Y0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Y2" SIGIS="undef" SIGNAME="design_1_4_Y2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="design_1_7" PORT="Cn"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/design_1_5" HWVERSION="1.0" INSTANCE="design_1_5" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="design_1" VLNV="sysu:user:design_1:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_2_design_1_4_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="A" SIGIS="undef" SIGNAME="External_Ports_A_3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="A_3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="B" SIGIS="undef" SIGNAME="External_Ports_B_3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="B_3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="Cn" SIGIS="undef" SIGNAME="design_1_6_Y2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="design_1_6" PORT="Y2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="M0" SIGIS="undef" SIGNAME="External_Ports_M0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="M0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="M1" SIGIS="undef" SIGNAME="External_Ports_M1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="M1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="M2" SIGIS="undef" SIGNAME="External_Ports_M2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="M2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Y1" SIGIS="undef" SIGNAME="design_1_5_Y1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="Y3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Y2" SIGIS="undef" SIGNAME="design_1_5_Y2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="Cout"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/design_1_6" HWVERSION="1.0" INSTANCE="design_1_6" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="design_1" VLNV="sysu:user:design_1:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_2_design_1_4_2"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="A" SIGIS="undef" SIGNAME="External_Ports_A_2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="A_2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="B" SIGIS="undef" SIGNAME="External_Ports_B_2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="B_2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="Cn" SIGIS="undef" SIGNAME="design_1_7_Y2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="design_1_7" PORT="Y2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="M0" SIGIS="undef" SIGNAME="External_Ports_M0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="M0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="M1" SIGIS="undef" SIGNAME="External_Ports_M1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="M1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="M2" SIGIS="undef" SIGNAME="External_Ports_M2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="M2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Y1" SIGIS="undef" SIGNAME="design_1_6_Y1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="Y2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Y2" SIGIS="undef" SIGNAME="design_1_6_Y2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="design_1_5" PORT="Cn"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/design_1_7" HWVERSION="1.0" INSTANCE="design_1_7" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="design_1" VLNV="sysu:user:design_1:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_2_design_1_4_3"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="A" SIGIS="undef" SIGNAME="External_Ports_A_1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="A_1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="B" SIGIS="undef" SIGNAME="External_Ports_B_1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="B_1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="Cn" SIGIS="undef" SIGNAME="design_1_4_Y2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="design_1_4" PORT="Y2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="M0" SIGIS="undef" SIGNAME="External_Ports_M0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="M0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="M1" SIGIS="undef" SIGNAME="External_Ports_M1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="M1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="M2" SIGIS="undef" SIGNAME="External_Ports_M2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="M2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Y1" SIGIS="undef" SIGNAME="design_1_7_Y1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="Y1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Y2" SIGIS="undef" SIGNAME="design_1_7_Y2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="design_1_6" PORT="Cn"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+  </MODULES>
+
+</EDKSYSTEM>
